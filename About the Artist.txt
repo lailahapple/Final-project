@@ -103,11 +103,11 @@ img {
 <section>
   <nav>
     <ul>
-      <li><a href="#">Homepage</a></li>
-      <li><a href="#">About the Artist</a></li>
-      <li><a href="#">Top Albums</a></li>
-      <li><a href="#">Media</a></li>
-      <li><a href="#">Tour</a></li>
+      <li><a href="Homepage.txt">Homepage</a></li>
+      <li><a href="About the Artist.txt">About the Artist</a></li>
+      <li><a href="Top Albums.txt">Top Albums</a></li>
+      <li><a href="Media.txt">Media</a></li>
+      <li><a href="Tour.txt">Tour</a></li>
     </ul>
     <img src="https://img.discogs.com/ubsCXMpcoAFiqezKahoV474MVDQ=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/L-526659-1364844202-1876.jpeg.jpg"/>
   </nav>
