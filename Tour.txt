@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+
+a:link {
+   color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+  font-family: serif;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1200px;
+  background: #e6e6e6;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1200px;
+  background-color: #e60073;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333333;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+img {
+   max-height: 100%;
+   max-width: 100%;
+}
+
+p {
+   color: black;
+}
+
+ol {
+    color: black;
+    text-align: left; 
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Maher Zain</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Homepage</a></li>
+      <li><a href="#">About the Artist</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+    <img src="https://img.discogs.com/ubsCXMpcoAFiqezKahoV474MVDQ=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/L-526659-1364844202-1876.jpeg.jpg"/>
+  </nav>
+  
+  <article>
+ 
+ <h1 style="font-size:60px;color:black;border: 4px solid white;">Tour</h1>
+ 
+ <table align="center">
+ 
+ <tr>
+ <td>1/11 - Verti Music Hall - Berlin, Germany </td>
+ </tr>
+ 
+ <tr>
+ <td>11/30 - Grugahalle Essen - Essen, Germany</td>
+ </tr>
+ 
+ <tr>
+ <td>10/22-10/27 - O2 Apollo Manchester - Manchester, UK</td>
+ </tr>
+ 
+ <tr>
+ <td>3/16 - MacEwan Ballroom, University of Calgary - Calgary, AB, Canada</td>
+ </tr>
+ 
+ <tr>
+ <td>10/9 - Istora Senayan - Jakarta, Indonesia</td>
+ </tr>
+ 
+ <tr>
+ <td>6/18 - Singapore Expo Hall 3 - Singapore</td>
+ </tr>
+ 
+ <tr>
+ <td>5/6 - The Masquerade - Atlanta, GA</td>
+ </tr>
+ 
+ <tr>
+ <td>1/28 - Metro - Chicago, LI</td>
+ </tr>
+ 
+ <tr>
+ <td>7/15 - Constitution Hall - Washington, DC</td>
+ </tr>
+ 
+ <tr>
+ <td> 2/7 - Radio City Music Hall - NY</td>
+ </tr>
+ 
+ <tr>
+ <td>6/14 - Jiffy Lube Live - Bristow, VA</td>
+ </tr>
+ 
+ <tr>
+ <td>8/24 - Temple Live - Fort Smith, AR</td>
+ </tr>
+ 
+ </table>
+ 
+ 
+ <h1 style="font-size:60px;color:black;border: 4px solid white;">Buy Tickets</h1>
+ 
+ <iframe src="https://www.ticketmaster.com" height="495" width="500"></iframe>
+ 
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Lailah Hancock. All Rights Reserved.</i>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+
+a:link {
+   color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+  font-family: serif;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 950px;
+  background: #e6e6e6;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 950px;
+  background-color: #e60073;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333333;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+img {
+   max-height: 100%;
+   max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Maher Zain</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Homepage</a></li>
+      <li><a href="#">About the Artist</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+    <img src="https://img.discogs.com/ubsCXMpcoAFiqezKahoV474MVDQ=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/L-526659-1364844202-1876.jpeg.jpg"/>
+  </nav>
+  
+  <article>
+ 
+ <img src="https://yt3.ggpht.com/a/AATXAJw46YFseCtSXChqfIbS-K_yEHtTAoXsUinQAw=s900-c-k-c0xffffffff-no-rj-mo"/>
+ 
+ <p>Maher Zain is an islamic Swedish songwriter. He was born july 16 1981. His parents were Lebenese but they emigrated to Swedin when he was only 8 years old. While he was there, he finished school and got his bacholers degree. in 2005 he entered the music industry.</p>
+ <p>In 2009, he teamed up with Awakening records and produced his first official album which was titled "Thank you Allah" and containes 13 songs total.</p>
+ <p>Later on in his life he made 2 more successful albums; in 2012 he made one titled "Forgive Me" and it contained 14 songs. In 2016 he made another one titled "One" which has 15 songs. </p>
+ <p> Although most of his songs are in English, he has many that are in other languages such as Aribic, Turkish, and French.</p>
+ <p>Through out his musical career he's fetured lot's of other artist in his songs, and he continues to make great songs for Awakening records.</p>
+ 
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Lailah Hancock. All Rights Reserved.</i>
+</footer>
+
+</body>
+</html>
